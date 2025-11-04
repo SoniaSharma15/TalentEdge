@@ -114,12 +114,14 @@ function CoverLetterPage() {
         </Button>
       </div>
 
-      {typeof coverLetter === "string" && coverLetter.trim() !== "" && (
-        <div className="mt-8 p-6 bg-gray-100 dark:bg-gray-800 rounded-md shadow">
-          <h3 className="font-semibold text-lg mb-4">Your Cover Letter</h3>
-          <ReactMarkdown>{coverLetter}</ReactMarkdown>
-        </div>
-      )}
+     {typeof coverLetter === "string" && coverLetter.trim() !== "" && (
+  <div className="mt-8 p-6 bg-gray-100 dark:bg-gray-800 rounded-md shadow">
+    <h3 className="font-semibold text-lg mb-4">Your Cover Letter</h3>
+    <ReactMarkdown >
+      {coverLetter.replace(/\\n/g, '\n').replace(/\n/g, '\n\n')}
+    </ReactMarkdown>
+  </div>
+)}
     </div>
   );
 }

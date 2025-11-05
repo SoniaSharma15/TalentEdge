@@ -7,12 +7,12 @@ export const aiToolsList = [
   button: "Let's Chat",
   icon: "/chatbot.png" // Represents chat or conversation
 },
-{path:"/ai-tools/ai-resume-analyzer",
- name: "AI Resume Analyzer",
-  desc: "Chat with AI Agent",
-  button: "Start",
-  icon: "/resume.png" // Represents documents or resumes
-},
+// {path:"/ai-tools/ai-resume-analyzer",
+//  name: "AI Resume Analyzer",
+//   desc: "Chat with AI Agent",
+//   button: "Start",
+//   icon: "/resume.png" // Represents documents or resumes
+// },
 {path:"/ai-tools/ai-roadmap-agent",
  name: "Learning Roadmap",
   desc: "Chat with AI Agent",

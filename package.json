@@ -1,55 +1,63 @@
 {
   "name": "mentora",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "drizzle.config.js",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
     "inngest-dev": "npx inngest-cli@latest dev"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoniaSharma15/TalentEdge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoniaSharma15/TalentEdge/issues"
+  },
+  "homepage": "https://github.com/SoniaSharma15/TalentEdge#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.16",
+    "tailwindcss": "^4.1.16",
+    "tw-animate-css": "^1.4.0"
+  },
   "dependencies": {
-    "@clerk/nextjs": "^6.33.6",
-    "@clerk/themes": "^2.4.27",
+    "@clerk/nextjs": "^6.34.3",
+    "@clerk/themes": "^2.4.32",
     "@inngest/agent-kit": "^0.13.1",
-    "@langchain/community": "^1.0.0",
-    "@langchain/core": "0.3.17",
     "@neondatabase/serverless": "^1.0.2",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-dropdown-menu": "^2.1.16",
-    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-label": "^2.1.8",
     "@radix-ui/react-select": "^2.2.6",
-    "@radix-ui/react-separator": "^1.1.7",
+    "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slider": "^1.3.6",
-    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-slot": "^1.2.4",
     "@radix-ui/react-tabs": "^1.1.13",
     "@radix-ui/react-tooltip": "^1.2.8",
     "@xyflow/react": "^12.9.2",
-    "axios": "^1.13.1",
+    "axios": "^1.13.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "convex": "^1.28.0",
-    "drizzle-orm": "^0.44.6",
+    "convex": "^1.28.2",
+    "drizzle-orm": "^0.44.7",
     "imagekit": "^6.0.0",
-    "inngest": "^3.44.3",
-    "lucide-react": "^0.546.0",
-    "next": "^14.2.11",
+    "inngest": "^3.44.5",
+    "lucide-react": "^0.552.0",
+    "next": "^16.0.1",
     "next-themes": "^0.4.6",
-    "pdf-parse": "^1.1.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-markdown": "^10.1.0",
     "react-spinner": "^0.2.7",
     "react-spinners": "^0.17.0",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.3.1",
     "uuid": "^13.0.0",
-    "zod": "^3.23.8"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13",
-    "tw-animate-css": "^1.4.0"
+    "zod": "^4.1.12"
   }
 }
